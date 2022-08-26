@@ -31,7 +31,7 @@ namespace maze_game
         public int Width => _Width;
         public int Height => _Height;
 
-        int GetSquare(int r, int c)
+        public int GetSquare(int r, int c)
         {
             return _Grid[r][c];
         }
